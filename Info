@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ThousandNumbers
+{
+    class Info
+    {
+        public void DisplayInfo(string assingmentInfo)
+        {
+            /*writes your name
+              Course Name
+              Instructor's Name
+              Assignment number and name
+              Today's Date 
+             */
+            Console.WriteLine("Name:                        Colin Young");
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("Course Name:                 Intro Object-Oriented Prg(C#)");
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("Instructors Name:            Robert Menzl");
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("Assignment Number & Name:    " + assingmentInfo);
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("Todays Date:                 " + DateTime.Today.ToShortDateString());
+            Console.WriteLine("----------------------------------------------------------\n\n");
+            Console.WriteLine("Press Enter To Start");
+            Console.ReadLine();
+            Console.Clear();
+        }
+    }
+}
